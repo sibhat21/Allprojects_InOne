@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+.link-wrapper a {
+  color: #0066cc;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.link-wrapper a:hover {
+  color: black;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .tv-wrapper {
+    background-image: url("../images/home/apple-tv-background.jpg");
+    /* display: block; */
+  }
+  .card-wrapper {
+    background-image: url("../images/home/apple-card.jpg");
+    padding-top: 10px;
+  }
+  .banker-wrapper {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+
+  .tv-wrapper {
+    background-image: url(../images/home/actors.jpg);
+    display: block;
+  }
+  .banker-wrapper {
+    padding-top: 270px;
+  }
+
+  .card-wrapper {
+    background-image: url("../images/home/apple-card-monthly.jpg");
+  }
+}
+
+/*My CSS style  starting point */
+.link-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.link-wrapper a {
+  color: #0066cc;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.link-trailer::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 10px;
+}
+.link-wrapper a:hover {
+  color: black;
+}
+.title-wrapper {
+  font-weight: 700;
+  font-size: 40px;
+}
+.discription-wrapper,
+.price-wrapper {
+  font-size: 20px;
+}
+
+.iphone-11-pro,
+.ihone-11,
+.watch-wrapper,
+.card-wrapper,
+.tv-wrapper,
+.iPad-right-wrapper {
+  height: 580px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* iphone 11 Pro Section  */
+.iphone-11-pro {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  color: white;
+  background-color: black;
+}
+/* -- ihone 11 Section  */
+.ihone-11 {
+  background-image: url("../images/home/iphone11-colored.jpg");
+}
+/* watch and Card Section  */
+.watch-wrapper {
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+
+.iPad-right-wrapper {
+  background-image: url("../images/home/new-ipad.jpg");
+}
+
+.mackBook-leftSide,
+.airPods-right-wrapper {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  height: 580px;
+}
+.airPods-right-wrapper {
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-color: #000;
+}
+
+.tv-servant-wrapper {
+  padding-top: 200px;
+}
+
+.link-trailer {
+  padding-top: 190px;
+  color: #06c;
+  font-size: 20px;
+}
+
+.mackBook-leftSide {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-color: #fafafa;
+}

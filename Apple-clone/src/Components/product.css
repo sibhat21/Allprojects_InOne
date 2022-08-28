@@ -1,0 +1,11 @@
+img {
+  max-width: 100%;
+}
+.product-image {
+  width: 150px;
+  height: auto;
+}
+
+.container-wrapper {
+  margin-top: 150px;
+}

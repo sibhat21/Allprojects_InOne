@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="CSS/bootstrap.css">
+          <link rel="stylesheet" href="CSS/style.css">
+          <title>Bank kit</title>
+</head>
+
+<body>
+          <header class="header">
+
+                    <h1 class="ml-5">Well come to Our Ideal Bank</h1>
+                    <h1 class="timer">Please Finish before timer closed <h1>
+
+          </header>
+          <div class="main_section">
+
+
+
+                    <form action="index2.html" method="post" class="form form1">
+
+                              <div class="user1-header header"> Please log in to your account first</div>
+                              <h3> Join Our Bank</h3>
+                              <p class="create-account">Already have an account?<span> <a href="#"
+                                                            class="sign">Signin</a></span>
+                              </p>
+                              <div class="col-12 m-3">
+
+                                        <input type="email" id="email" class="email col-8" placeholder="Email">
+                              </div>
+                              <div class="row m-3">
+                                        <input id="fname" type="text" placeholder="First Name" class="col-4 ml-3" />
+                                        <input id="lname" type="text" placeholder="Last Name" class="col-4 mx-1" />
+                              </div>
+                              <div class="col-12 ml-3">
+                                        <input type="password" id="password" class="col-8" placeholder="Password">
+                                        <p class="hidden  error1 col-8">Please Enter at least 5 characters
+                                        </p>
+                              </div>
+                              <div class="m-3 col-12">
+                                        <input type="password" id="repassword" class="col-8" placeholder="Re-Password">
+                                        <p class="hidden error2 col-8">Miss match Pass word </p>
+                                        <p class="hidden duplicate-account col-8">Aleardy you have an account
+                                        </p>
+
+                              </div>
+
+                              <button type="submit" class="btn-primary  col-8 mx-4 mb-3 ">Agree and
+                                        Join</button>
+                              <h5 id="h5" class="col-6"><a href="#" class="span">Already have an account?</a>
+                              </h5>
+                    </form>
+
+
+                    <form action="index.html" method="post" class="form form2 hidden ">
+                              <div class="user2-header header"> Please log in to your account first</div>
+                              <h2 class="ml-5" id="h2">Login to Your account</h2>
+
+                              <p class="create-account account"> Don't have an account ? <span><a href="#"
+                                                            class="account">Creat a
+                                                            new account</a></span></p>
+
+                              <div class="col-10 ml-3">
+                                        <label for="user">User:</label>
+                                        <input type="email" id="user" class="user col-8 m-3"
+                                                  placeholder="Email@gimal.com">
+                              </div>
+
+                              <div class="col-10 my-3">
+                                        <label for="userPassword">Password:</label>
+                                        <input type="password" id="userPassword" class="col-8" placeholder="*******">
+                                        <h5 class="hidden invalidPass col-8">Invalid User Name or Pass Word
+                                        </h5>
+                              </div>
+
+                              <a class="forgot span" href="#">Forgot password?</a>
+                              <button type="submit" class="btn-primary col-10 my-4 ml-3 " id="button">
+                                        Login</button>
+                              <div class="link">
+                                        <a href="#"> </a>
+                              </div>
+
+
+                    </form>
+
+                    <form action="index.html" class="form form3 hidden">
+                              <div class="last-form">
+                                        <div class="user1-header header mb-5"> Please log in to your account first</div>
+                                        <h4 class="col-6">Rest your password</h4>
+                                        <p class="col-7"> Fill in Your e-mail address bellow and we will send you an
+                                                  email with
+                                                  further instarction</p>
+                              </div>
+
+                              <input type="email" placeholder="Email address" class="col-8 ml-5 resetUser">
+                              <button type="submit" placeholder="Email address"
+                                        class="col-8  resetButton m-5 btn-primary ">Reset
+                                        your password</button>
+                              <div><a class="rest-to-lonin span col-5" href="#">Aleardy have an account?</a></div>
+                              <div><a class="rest-to-account  span col-5 " href="#">Don't have an account?</a></div>
+                    </form>
+
+
+          </div>
+          <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

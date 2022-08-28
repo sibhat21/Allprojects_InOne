@@ -1,0 +1,9 @@
+
+netflix Url=>https://api.themoviedb.org/3/movie/550?api_key=4b357ed8e779847754f39c1ce5989750
+my netflix API_ key=>4b357ed8e779847754f39c1ce5989750
+
+netflix Url= https://netflix-project-79a3b.web.app
+Amazon URL=https://clone-6f84a.web.app
+bankit: https://bankit-b9b31.web.app
+inputform:https://input-form-b1136.web.app
+apple-clone=https://apple-clone-37190.web.app
